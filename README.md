@@ -44,46 +44,6 @@ portfolio/
 
 ---
 
-## Setup Instructions
-
-No installation or build tools are needed. This is a plain HTML/CSS project.
-
-**Requirements:**
-- Any modern web browser (Chrome, Firefox, Edge, Safari)
-- Both files (`index.html` and `style.css`) must be in the **same folder**
-
----
-
-## How to Run the Project
-
-### Option 1 — Open directly in a browser
-
-1. Download or clone this repository:
-   ```bash
-   git clone https://github.com/lohit112/portfolio.git
-   ```
-2. Open the project folder.
-3. Double-click `index.html` — it will open in your default browser.
-
-### Option 2 — Use VS Code Live Server (recommended for development)
-
-1. Open the folder in [Visual Studio Code](https://code.visualstudio.com/).
-2. Install the **Live Server** extension (by Ritwick Dey).
-3. Right-click `index.html` → **Open with Live Server**.
-4. The site will open at `http://127.0.0.1:5500`.
-
-### Option 3 — Host on GitHub Pages
-
-1. Push the repository to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Source**, select `main` branch and `/ (root)`.
-4. Click **Save** — your site will be live at:
-   ```
-   https://<your-username>.github.io/<repo-name>/
-   ```
-
----
-
 ## Technologies Used
 
 | Technology | Purpose |
