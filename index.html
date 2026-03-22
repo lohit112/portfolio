@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D Lohit Reddy | Portfolio</title>
+  <!-- Links to our separate CSS file (must be in same folder) -->
+  <link rel="stylesheet" href="new.css" />
+  <!-- Google Fonts: Playfair Display for headings, DM Sans for body -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV: fixed bar at top. Each link jumps to a section by its id -->
+  <nav>
+    <div class="logo">DLR</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO: first screen the visitor sees -->
+  <section id="home">
+    <span class="badge">AI · Data Science · Engineering</span>
+    <h1>D <em>Lohit</em> Reddy</h1>
+    <p class="sub">First-year B.Tech student at Amrita Vishwa Vidyapeetham, passionate about machine learning, structural simulation, and building real things.</p>
+    <div class="btn-row">
+      <a href="#projects" class="btn-solid">View My Work</a>
+      <a href="#contact" class="btn-outline">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="light">
+    <p class="label">Who I Am</p>
+    <h2>About Me</h2>
+    <div class="two-col">
+      <div class="about-text">
+        <p>I'm <strong>D Lohit Reddy</strong> — a B.Tech AI &amp; Data Science student who enjoys the intersection of engineering simulation and intelligent systems.</p>
+        <p>From analysing bicycle frame stresses in ANSYS to training transformer models in PyTorch, I love taking a problem all the way from data to result.</p>
+        <p>Certified by DataCamp, HarvardX, and Kaggle — always looking for the next challenge.</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><span>1+</span><small>Year at Amrita</small></div>
+        <div class="stat"><span>4</span><small>Certifications</small></div>
+        <div class="stat"><span>1</span><small>Major Project</small></div>
+        <div class="stat"><span>∞</span><small>Curiosity</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="label">What I Know</p>
+    <h2>Technical Skills</h2>
+    <div class="grid3">
+      <div class="card"><div class="icon">🔧</div><h3>Simulation</h3><div class="tags"><span>ANSYS</span><span>SolidWorks</span><span>FEA</span></div></div>
+      <div class="card"><div class="icon">🧠</div><h3>Machine Learning</h3><div class="tags"><span>PyTorch</span><span>Transformers</span><span>Scikit-learn</span></div></div>
+      <div class="card"><div class="icon">💻</div><h3>Programming</h3><div class="tags"><span>Python</span><span>SQL</span><span>HTML/CSS</span></div></div>
+      <div class="card"><div class="icon">🤖</div><h3>AI / NLP</h3><div class="tags"><span>LLMs</span><span>RAG</span><span>LangChain</span></div></div>
+      <div class="card"><div class="icon">📊</div><h3>Data</h3><div class="tags"><span>Preprocessing</span><span>Feature Eng.</span><span>Kaggle</span></div></div>
+      <div class="card"><div class="icon">🛠️</div><h3>Tools</h3><div class="tags"><span>Git</span><span>Jupyter</span><span>VS Code</span></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="light">
+    <p class="label">What I've Built</p>
+    <h2>Projects</h2>
+    <div class="proj-card">
+      <div class="proj-head">
+        <h3>Structural Analysis of a Motorcycle / Bicycle Frame</h3>
+        <span class="date">Apr 2025 – Jun 2025</span>
+      </div>
+      <p>Comprehensive FEA study of a diamond-type bicycle frame using <strong>SolidWorks</strong> (3D modelling) and <strong>ANSYS Workbench</strong>. Compared three materials: Carbon Fiber, Aluminum 6061-T6, and Titanium Alloy.</p>
+      <ul>
+        <li>Modelled frame geometry using 3D beam elements.</li>
+        <li>Applied rider weight (700 N) and pedalling force (150 N).</li>
+        <li>Evaluated total deformation, directional deformation, and von Mises stress.</li>
+      </ul>
+      <div class="tags"><span>ANSYS</span><span>SolidWorks</span><span>FEA</span><span>Structural Analysis</span></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <p class="label">My Background</p>
+    <h2>Education</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="dot"></div>
+        <div class="tl-card">
+          <h3>Amrita Vishwa Vidyapeetham</h3>
+          <p class="deg">B.Tech — Artificial Intelligence &amp; Data Science</p>
+          <p class="yr">2024 – 2028</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="dot"></div>
+        <div class="tl-card">
+          <h3>Narayana Junior College, India</h3>
+          <p class="deg">Grade 12 — MPC (Maths, Physics, Chemistry) · CBSE</p>
+          <p class="yr">Jun 2022 – Jun 2024</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="dot"></div>
+        <div class="tl-card">
+          <h3>St Joseph's Public School</h3>
+          <p class="deg">Grade 10 — ICSE</p>
+          <p class="yr">Jul 2016 – May 2022</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="light">
+    <p class="label">What I've Earned</p>
+    <h2>Certifications</h2>
+    <div class="grid4">
+      <div class="card"><div class="icon">🔥</div><h3>Transformer Models with PyTorch</h3><p class="issuer">DataCamp</p><p class="yr">Feb 2026</p></div>
+      <div class="card"><div class="icon">🎓</div><h3>Data Science: Machine Learning PH125.8x</h3><p class="issuer">HarvardX</p><p class="yr">Dec 2025</p></div>
+      <div class="card"><div class="icon">📈</div><h3>Introduction to Machine Learning</h3><p class="issuer">Kaggle</p><p class="yr">Aug 2025</p></div>
+      <div class="card"><div class="icon">🏅</div><h3>Building AI Foundations</h3><p class="issuer">ACM Student Chapter, Amrita</p><p class="yr">Nov 2024</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="dark">
+    <p class="label">Get In Touch</p>
+    <h2>Contact Me</h2>
+    <div class="contact-row">
+      <a href="/cdn-cgi/l/email-protection#3a565552534e0b08090d7a5d575b535614595557" class="c-card">
+        <div class="icon">✉️</div>
+        <p class="clabel">Email</p>
+        <p><span class="__cf_email__" data-cfemail="93fffcfbfae7a2a1a0a4d3f4fef2faffbdf0fcfe">[email&#160;protected]</span></p>
+      </a>
+      <a href="https://github.com/lohit112" target="_blank" class="c-card">
+        <div class="icon">🐙</div>
+        <p class="clabel">GitHub</p>
+        <p>github.com/lohit112</p>
+      </a>
+      <a href="https://www.linkedin.com/in/d-lohit-reddy-1126s" target="_blank" class="c-card">
+        <div class="icon">💼</div>
+        <p class="clabel">LinkedIn</p>
+        <p>d-lohit-reddy-1126
